@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from src.djPullgerReflection.com_booking import views
+from djPullgerReflection.com_booking import views
 
 urlpatterns = [
     path('domainGetLanguage/', views.domainGetLanguage)
