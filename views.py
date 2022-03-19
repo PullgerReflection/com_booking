@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from src.djPullgerReflection.com_booking import metods
+from djPullgerReflection.com_booking import metods
 
 
 def domainGetLanguage(request):
